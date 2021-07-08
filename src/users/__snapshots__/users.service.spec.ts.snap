@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersService buildList List: [ 'name1' ] 1`] = `
+Array [
+  Array [
+    Object {
+      "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-1\\"}",
+      "text": "name1",
+    },
+  ],
+  Array [],
+]
+`;
+
+exports[`UsersService buildList List: [ 'name1', 'name2' ] 1`] = `
+Array [
+  Array [
+    Object {
+      "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-1\\"}",
+      "text": "name1",
+    },
+  ],
+  Array [
+    Object {
+      "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-2\\"}",
+      "text": "name2",
+    },
+  ],
+  Array [],
+]
+`;
+
+exports[`UsersService buildList List: [ 'name1', 'name2', 'name3' ] 1`] = `
+Array [
+  Array [
+    Object {
+      "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-1\\"}",
+      "text": "name1",
+    },
+  ],
+  Array [
+    Object {
+      "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-2\\"}",
+      "text": "name2",
+    },
+  ],
+  Array [
+    Object {
+      "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-3\\"}",
+      "text": "name3",
+    },
+  ],
+  Array [],
+]
+`;
+
+exports[`UsersService buildList List: [ 'name1', 'name2', 'name3', 'name4' ] 1`] = `
+Array [
+  Array [
+    Object {
+      "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-1\\"}",
+      "text": "name1",
+    },
+  ],
+  Array [
+    Object {
+      "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-2\\"}",
+      "text": "name2",
+    },
+  ],
+  Array [
+    Object {
+      "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-3\\"}",
+      "text": "name3",
+    },
+  ],
+  Array [
+    Object {
+      "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-4\\"}",
+      "text": "name4",
+    },
+  ],
+  Array [],
+]
+`;
+
+exports[`UsersService sendListBtns call method 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "chat": Object {
+          "id": 1,
+        },
+        "message_id": 10,
+      },
+      "Header",
+      Object {
+        "reply_markup": Object {
+          "inline_keyboard": Array [
+            Array [
+              Object {
+                "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-1\\"}",
+                "text": "Btn1",
+              },
+            ],
+            Array [
+              Object {
+                "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-2\\"}",
+                "text": "Btn2",
+              },
+            ],
+            Array [
+              Object {
+                "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-3\\"}",
+                "text": "Btn3",
+              },
+            ],
+            Array [
+              Object {
+                "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-4\\"}",
+                "text": "Btn4",
+              },
+            ],
+            Array [
+              Object {
+                "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-5\\"}",
+                "text": "Btn5",
+              },
+            ],
+            Array [
+              Object {
+                "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-6\\"}",
+                "text": "Btn6",
+              },
+            ],
+            Array [
+              Object {
+                "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-7\\"}",
+                "text": "Btn7",
+              },
+            ],
+            Array [
+              Object {
+                "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-8\\"}",
+                "text": "Btn8",
+              },
+            ],
+            Array [],
+          ],
+        },
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`UsersService sendListBtns call method 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "userKey",
+      "{\\"chat\\":{\\"id\\":1},\\"message_id\\":10}",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`UsersService updateListBtns List less 9 1`] = `[MockFunction]`;
+
+exports[`UsersService updateListBtns List more 9 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "inline_keyboard": Array [
+          Array [
+            Object {
+              "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-1\\"}",
+              "text": "btn",
+            },
+          ],
+          Array [
+            Object {
+              "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-2\\"}",
+              "text": "btn",
+            },
+          ],
+          Array [
+            Object {
+              "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-3\\"}",
+              "text": "btn",
+            },
+          ],
+          Array [
+            Object {
+              "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-4\\"}",
+              "text": "btn",
+            },
+          ],
+          Array [
+            Object {
+              "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-5\\"}",
+              "text": "btn",
+            },
+          ],
+          Array [
+            Object {
+              "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-6\\"}",
+              "text": "btn",
+            },
+          ],
+          Array [
+            Object {
+              "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-7\\"}",
+              "text": "btn",
+            },
+          ],
+          Array [
+            Object {
+              "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"cmd\\",\\"d\\":\\"btn-8\\"}",
+              "text": "btn",
+            },
+          ],
+          Array [
+            Object {
+              "text": "1 / 2",
+            },
+            Object {
+              "callback_data": "{\\"t\\":\\"u\\",\\"u\\":\\"pag\\",\\"page\\":2}",
+              "text": "➡",
+            },
+          ],
+        ],
+      },
+      Object {
+        "chat_id": 1,
+        "message_id": 1,
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
